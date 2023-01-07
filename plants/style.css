@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    width: 1440px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 134px;
+    background-color: #EDF2EC;
+    font-size: 16px;
+    font-family: Inika;
+}
+
+.header-description {
+    display: flex;
+    margin: 51px auto 62px 115px;
+}
+
+header img {
+    height: 20px;
+    width: 19px;
+    margin: -7px;
+}
+
+.leaf2 {
+    position: absolute;
+    left: -1;
+    top: 58px;
+}
+
+.description-text {
+    height: 17px;
+    width: 58.13px;
+    margin: 5px 0px 0px 13px;
+}
+
+.nav {
+    display: inline-block;
+    margin-right: 571px;
+    margin-left: 687px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 3px 0 0 0;
+    margin-top: 53px;
+    padding-right: 2px;
+    width: 450px;
+}
+
+.home {
+    color: #E06733;
+}
+
+.welcome {
+    display: flex;
+    height: 532px;
+    background-color: #EDF2EC;
+    margin: 0px;
+}
+
+
+.welcome-img {
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+.leaf-1 {
+    margin-top: 167px;
+    margin-left: -45px;
+    padding: 0;
+}
+
+.leaf-1 img {
+    width: 81.23px;
+    height: 60.89px;
+}
+
+.leaf-2 {
+    margin-left: 123.22px;
+    margin-top: 57px;
+    padding: 0;
+}
+
+.leaf-2 img {
+    height: 177.84;
+    width: 245.31px;
+}
+
+.leaf-4 {
+    margin-top: -24px;
+    margin-left: 105px;
+    padding: 0;
+}
+
+.leafs1-2 {
+    display: flex;
+}
+
+.leaf-4 img {
+    height: 62px;
+    width: 80.33px;
+}
+
+.leafs3-5 {
+    margin-left: 210px;
+    margin-top: -122px;
+}
+
+.leaf-5 {
+    margin-top: -170px;
+    margin-left: 210px;
+}
+
+.welcome {
+    font-family: Inter;
+}
+
+.welcome__header {
+    font-family: Inter;
+    width: 549px;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 98px;
+    margin-left: 220px;
+    font-weight: 900;
+    color: #717171;
+}
+
+.welcome__header_part1 {
+    display: inline;
+}
+
+.welcome__header_part1::after {
+    content: " plants";
+    color: #499A18;
+}
+
+.welcome__header::after {
+    content: "and give you oxygen";
+}
+
+.welcome__header_text {
+    width: 525.44px;
+    height: 105px;
+    margin-top: 44px;
+    margin-left: 220px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.welcome__button {
+    width: 158px;
+    height: 44px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: solid #E06733;
+    border-width: 2px;
+    margin: 28px auto auto 220px;
+}
+
+.about {
+    display: flex;
+}
+
+.about_description {
+    margin-top: 161px;
+    margin-left: 109px;
+}
+
+.about_header {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.about_text {
+    padding-top: 29px;
+}
+
+.about_img {
+    margin: 93px 109px auto auto;
+}
+
+.service_text {
+    display: flex;
+    margin: 120px auto auto 109px;
+}
+
+.service_types {
+    display: flex;
+    justify-content: space-between;
+    margin: 39px 286px auto auto;
+}
+
+.service_type {
+    width: 159px;
+    height: 38px;
+    text-align: center;
+    padding-top: 10px;
+    margin: auto 38px auto auto;
+    list-style-type: none;
+    border: 1px solid #E06733;
+    border-radius: 3px;
+    font-family: Inika;
+}
+
+.service_type img {
+    margin: 6px auto auto -5px;
+}
+
+.gardens {
+    background-color: #E06733;
+    color: #FFFFFF;
+}
+
+.service_images {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.service {
+    background-color: #F5F5F5;
+    padding-bottom: 91px;
+}
+
+.service_image {
+    margin: 40px 45px 15px 68px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 15px;
+    padding: 0px 0px 17px 0px;
+}
+
+.service_image .text {
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 900;
+    color: #E06733;
+}
+
+.service_img_desription {
+    margin-top: -7.5px;
+    font-family: Inter;
+    font-size: 16px;
+    color: #717171;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_ad {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices h2 {
+    display: inline;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.price_ad_header2::before {
+    content: " gardeners";
+    color: #499A18;
+}
+
+.prices_headers {
+    margin: 40px 110px auto auto;
+    text-align: right;
+}
+
+.contact_button {
+    display: block;
+    margin: -25px 109px 20px auto;
+    padding: 11px 33px;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    color: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+}
+
+.prices_leafs_img {
+    margin: 10px auto auto auto;
+    padding: 0;
+}
+
+.prices_leafs_img .leaf_2 {
+    margin-left: 145px;
+}
+
+.prices_leafs_img .leaf_4 {
+    position: absolute;
+    margin: -23px auto auto 150px;
+}
+
+.prices_leafs_img .leaf_1 {
+    position: absolute;
+    margin: -58px 0px auto 250px;
+
+}
+
+.prices_leafs_img .leaf_3 {
+    position: absolute;
+    margin: -20px auto auto 190px;
+}
+
+.prices_desrription {
+    margin: 37px auto auto 110px;
+}
+
+.prices_types {
+    margin: 62px auto auto auto;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.price_item {
+    margin: 32px 39px 30px 0px;
+    padding: 13px 120px 13px 40px;
+    background-color: #EDF2EC;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter;
+    list-style-type: none;
+    border-radius: 30px;
+}
+
+.price_item__circle {
+    position: absolute;
+    margin: 5px auto auto 155px;
+}
+
+.vector_3 {
+    position: absolute;
+    margin: 12px auto auto 160px;
+}
+
+.vector_4 {
+    position: absolute;
+    margin: 12px auto auto 162px;
+}
+
+.contacts {
+    display: flex;
+    margin: 186px auto auto 110px;
+    background-color: #EDF2EC;
+}
+
+.contacts__header {
+    margin: 7px auto auto 112px;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 700;
+    color: #499A18;
+}
+
+.select_city {
+    width: 450px;
+    height: 50px;
+    margin: 95px auto auto -43px;
+    background-color: #D6E7D2;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.conacts_circle {
+    display: block;
+    margin: -20px auto auto 400px;
+}
+
+.city_header {
+    margin: 12px auto auto 20px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #717171;
+    letter-spacing: 0.05em;
+}
+
+.contacts_vector_3 {
+    display: block;
+    margin: -9px auto auto 405px;
+}
+
+.contacts_vector_4 {
+    display: block;
+    margin: -4px auto auto 407px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_description {
+    display: flex;
+    margin: 30px 110px;
+}
+
+.schools_communitiers {
+    display: flex;
+}
+
+.community,
+.insta,
+.twitter {
+    width: 27px;
+    height: 27px;
+}
+
+.facebook {
+    width: 17px;
+    height: 27px;
+}
+
+.footer_item {
+    margin-right: 21.5px;
+    font-size: 20px;
+    font-family: Inter;
+}
+
+.schools_link {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    margin-left: -115px;
+
+}
+
+.schools_link a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.schools_communitiers {
+    margin-top: 50px;
+    margin-right: 110px;
+}
+
+.schools_communitiers_item {
+    margin-left: 29px;
+}
