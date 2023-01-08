@@ -244,6 +244,9 @@ header img {
     background-color: #F5F5F5;
     padding-bottom: 91px;
 }
+.service_header {
+     color: #F5F5F5;
+}
 
 .service_image {
     margin: 40px 45px 15px 68px;
