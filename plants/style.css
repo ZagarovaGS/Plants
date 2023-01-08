@@ -210,7 +210,7 @@ header img {
 .service_types {
     display: flex;
     justify-content: space-between;
-    margin: 39px 286px auto auto;
+    margin: 70px 286px auto auto;
 }
 
 .service_type {
