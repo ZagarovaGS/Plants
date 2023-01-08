@@ -135,19 +135,29 @@ header img {
     color: #717171;
 }
 
-.welcome__header_part1 {
-    display: inline;
-}
-
-.welcome__header_part1::after {
+.welcome__header::after {
     content: " plants";
     color: #499A18;
 }
-
-.welcome__header::after {
-    content: "and give you oxygen";
+.welcome_header_part2 {
+    margin: -87px -350px auto auto;
+    font-family: Inter;
+    width: 549px;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #717171;
 }
 
+.welcome_header_part3 {
+    margin: 0px auto auto 220px;
+    font-family: Inter;
+    width: 549px;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #717171;
+}
 .welcome__header_text {
     width: 525.44px;
     height: 105px;
