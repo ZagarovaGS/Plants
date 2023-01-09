@@ -56,6 +56,11 @@ header img {
     width: 450px;
 }
 
+.header-menu a {
+    text-decoration: none;
+    color: #000000
+}
+
 .home {
     color: #E06733;
 }
@@ -480,6 +485,7 @@ a:hover {
 
 button:hover {
     background-color: #E06733;
+    color: #FFFFFF;
 }
 
 .github {
