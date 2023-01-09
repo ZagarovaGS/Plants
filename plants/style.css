@@ -460,3 +460,10 @@ header img {
 .schools_communitiers_item {
     margin-left: 29px;
 }
+a:hover {
+    color: #E06733;
+}
+
+button:hover {
+    background-color: #E06733;
+}
