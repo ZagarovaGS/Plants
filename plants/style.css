@@ -474,6 +474,7 @@ header img {
 .schools_communitiers {
     margin-top: 50px;
     margin-right: 110px;
+    list-style-type: none;
 }
 
 .schools_communitiers_item {
