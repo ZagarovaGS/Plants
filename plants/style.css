@@ -481,13 +481,7 @@ a:hover {
 button:hover {
     background-color: #E06733;
 }
-a:hover {
-    color: #E06733;
-}
 
-button:hover {
-    background-color: #E06733;
-}
 .github {
     text-decoration: none;
     color: #000000;
