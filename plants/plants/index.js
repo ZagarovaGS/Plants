@@ -19,7 +19,7 @@ crossIcon.addEventListener('click', ()=>{
 
 for(let navLink=0; navLink<navLinks.length; navLink++){
 navLinks[navLink].addEventListener('click', ()=>{
-    mobileHeaderMenu.classList.add('hidden');
+    mobileHeaderMenu.classList.add('smooth_hidden');
     burgerMenuIcon.classList.remove('hidden');
 })
 };
