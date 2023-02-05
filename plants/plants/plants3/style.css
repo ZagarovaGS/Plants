@@ -1,0 +1,1549 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    margin: 0;
+}
+
+.header_wrapper,
+.wellcome_wrapper,
+.about_wrapper,
+.service_wrapper,
+.prices_wrapper.about,
+.contacts_wrapper,
+.footer_wrapper {
+    width: 100%;
+}
+
+.mobile_header_menu {
+    display: none;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: 134px;
+    background-color: #EDF2EC;
+    font-size: 16px;
+    font-family: Inika;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header-description {
+    display: flex;
+    margin: 51px auto 62px 115px;
+}
+
+header img {
+    height: 20px;
+    width: 19px;
+    margin: -7px;
+}
+
+.welcome-img img {
+    width: 472px;
+    height: 435px;
+    margin-top: 52px;
+    margin-left: 97px;
+}
+
+.leaf2 {
+    position: absolute;
+    left: -1;
+    top: 58px;
+}
+
+.description-text {
+    height: 17px;
+    width: 58.13px;
+    margin: 5px 0px 0px 13px;
+}
+
+.nav {
+    display: inline-block;
+    margin-right: 571px;
+    margin-left: 687px;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 3px 0 0 0;
+    margin-top: 53px;
+    padding-right: 2px;
+    width: 450px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover {
+    color: #E06733;
+}
+
+button:hover {
+    background-color: #E06733;
+    transition: 1s;
+    color: #FFFFFF;
+}
+
+.home {
+    color: #E06733;
+}
+
+.burger_menu {
+    display: none;
+}
+
+.welcome {
+    display: flex;
+    height: 532px;
+    background-color: #EDF2EC;
+    margin: 0px;
+    font-family: Inter;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-img {
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+.welcome__header {
+    font-family: Inter;
+    width: 549px;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 98px;
+    margin-left: 217px;
+    padding-right: 0;
+    font-weight: 900;
+    color: #717171;
+}
+
+.welcome__header::after {
+    content: " plants";
+    color: #499A18;
+}
+
+.part_give {
+    margin-top: -54px;
+    margin-left: 660px;
+    font-family: Inter;
+    font-weight: 900;
+    color: #717171;
+    font-size: 45px;
+}
+
+.welcome_header_part2 {
+    margin: -87px -350px auto auto;
+    font-family: Inter;
+    width: 549px;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #717171;
+}
+
+.welcome_header_part3 {
+    margin: -45px auto auto 217px;
+    font-family: Inter;
+    width: 549px;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 900;
+    color: #717171;
+}
+
+.welcome__header_text {
+    width: 525.44px;
+    height: 105px;
+    margin-top: 44px;
+    margin-left: 217px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.welcome__button {
+    width: 158px;
+    height: 44px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: solid #E06733;
+    border-width: 2px;
+    margin: 28px auto auto 217px;
+}
+
+.about {
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.about_description {
+    margin-top: 161px;
+    margin-left: 109px;
+}
+
+.about_header,
+.about_header_part4 {
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    color: #499A18;
+}
+
+.about_header_part2,
+.about_header_part3 {
+    font-family: Inika;
+    font-size: 40px;
+    color: #E06733;
+}
+
+.about_header {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.about_header_part2 {
+    margin-top: -85px;
+    margin-left: 145px;
+}
+
+.about_header_part3 {
+    margin-top: -58px;
+}
+
+.about_header_part4 {
+    margin-top: -92px;
+    margin-left: 234px;
+}
+
+.about_text {
+    margin-top: -2px;
+    width: 605px;
+    height: 208px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #636060;
+    line-height: 30px;
+}
+
+.about_img {
+    margin-top: 93px;
+    margin-left: 153px;
+    margin-bottom: 89px;
+}
+
+.service_text {
+    display: flex;
+    margin: 0px auto auto 109px;
+}
+
+.service_types {
+    display: flex;
+    justify-content: space-between;
+    margin: 69px 292px auto auto;
+}
+
+.service_type {
+    display: block;
+    width: 161px;
+    text-align: center;
+    padding: 0px auto 15px auto;
+    margin: 0px 19px;
+    padding: 11px 42px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: Inika;
+    font-size: 20px;
+    color: #E06733;
+}
+
+.service_images {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.service {
+    background-color: #EDF2EC;
+    padding-bottom: 91px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.service__header {
+    margin-top: 40px;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    color: #499A18;
+}
+
+.service_img_768_1,
+.service_img_768_2,
+.service_img_768_3,
+.service_img_768_4,
+.service_img_768_5,
+.service_img_768_6 {
+    display: none;
+}
+
+.service_image {
+    margin: 40px 45px 15px 68px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 15px;
+    padding: 0px 0px 17px 0px;
+}
+
+.service_image .text {
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 900;
+    color: #E06733;
+}
+
+.service_img_desription {
+    margin-top: -7.5px;
+    font-family: Inter;
+    font-size: 16px;
+    color: #717171;
+}
+
+.service_blue_effect {
+    transition-property: blur();
+    transition-duration: 1s;
+    filter: blur(5px);
+}
+
+.active {
+    background-color: #E06733;
+    color: #FFFFFF;
+    transition-property: border;
+    transition-duration: 5s;
+    border-radius: 100%;
+    border-width: 0;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.price_ad {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices h2 {
+    display: inline;
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.price_ad_header {
+    margin-left: 300px;
+}
+
+.price_ad_header2::before {
+    content: " gardeners";
+    color: #499A18;
+}
+
+.price_ad_header3 {
+    margin-left: 150px;
+}
+
+.prices_headers {
+    margin: 39px 100px auto auto;
+    text-align: right;
+}
+
+.price_card {
+    height: 154px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgba(214, 231, 210, 1);
+    margin-top: -80px;
+}
+
+.price_header {
+    display: flex;
+    position: relative;
+}
+
+.price_name {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.accordion_btn {
+    position: absolute;
+    display: block;
+    right: 27px;
+    top: 18px;
+    border: none;
+    background-color: rgba(214, 231, 210, 1);
+}
+
+.price_line_img {
+    margin-left: 40px;
+    margin-top: -8px;
+}
+
+.price_text {
+    width: 169px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 2px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10px;
+    color: #717171;
+    letter-spacing: -0.01ch;
+}
+
+.price_size {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.price_order_button {
+    margin-left: 38px;
+    margin-top: 7px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 4px 28px 4px 22px;
+    border: none;
+}
+
+.price_order_button a {
+    text-decoration: none;
+    color: #717171;
+}
+
+.contact_button {
+    display: block;
+    margin: -154px 95px 20px auto;
+    padding: 11px 33px;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+    color: #E06733;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+}
+
+.prices {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.prices_leafs_img {
+    margin: -74px auto auto 590px;
+    padding: 0;
+}
+
+.prices_leafs_img .leaf_2 {
+    margin-left: 145px;
+}
+
+.prices_leafs_img .leaf_4 {
+    position: absolute;
+    margin: -23px auto auto 150px;
+}
+
+.prices_leafs_img .leaf_1 {
+    position: absolute;
+    margin: -58px 0px auto 250px;
+
+}
+
+.prices_leafs_img .leaf_3 {
+    position: absolute;
+    margin: -20px auto auto 190px;
+}
+
+.prices_desrription {
+    margin: 40px auto auto 110px;
+}
+
+.prices_types {
+    margin: 62px auto 130px auto;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.price_item {
+    margin: 32px 39px 30px 0px;
+    padding: 13px 120px 13px 40px;
+    background-color: #EDF2EC;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Inter;
+    list-style-type: none;
+    border-radius: 30px;
+}
+
+.price_item__circle {
+    position: absolute;
+    margin: 5px auto auto 155px;
+}
+
+.vector_3 {
+    position: absolute;
+    margin: 12px auto auto 160px;
+}
+
+.vector_4 {
+    position: absolute;
+    margin: 12px auto auto 162px;
+}
+
+.contacts {
+    display: flex;
+    margin-top: 133px;
+    background-color: #EDF2EC;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_woman_img {
+    margin-top: 56px;
+    margin-left: 110px;
+}
+
+.contacts__header {
+    margin: 62px auto auto 112px;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 700;
+    color: #499A18;
+}
+
+.select_city {
+    width: 450px;
+    height: 50px;
+    margin: 150px auto auto -30px;
+    background-color: #D6E7D2;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.city_card {
+    height: 212px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: #EDF2EC;
+    border: 1px solid #000000;
+}
+
+.city,
+.address,
+.phone {
+    display: flex;
+    margin-left: 19px;
+    padding-left: 14px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+}
+
+.city {
+    padding-top: 16px;
+}
+
+.city_name {
+    margin-left: 95px;
+    color: #717171;
+}
+
+.phone_number {
+    margin-left: 73px;
+    color: #717171;
+}
+
+.city_address {
+    margin-left: 15px;
+    color: #717171;
+}
+
+.call_button {
+    display: block;
+    width: 31px;
+    margin-top: 19px;
+    margin-left: 161px;
+    font-family: Inika;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 6px 45px 5px 45px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    color: #717171;
+    background-color: #EDF2EC;
+}
+
+.conacts_circle {
+    display: block;
+    margin: -20px auto auto 400px;
+}
+
+.city_header {
+    margin: 12px auto auto 20px;
+    font-size: 20px;
+    font-family: Inter;
+    color: #717171;
+    letter-spacing: 0.05em;
+}
+
+.contacts_vector_3 {
+    display: block;
+    margin: -3px auto auto 405px;
+}
+
+.contacts_vector_4 {
+    display: block;
+    margin: -4px auto auto 407px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_description {
+    display: flex;
+    margin: 30px 110px;
+}
+
+.schools_communitiers {
+    display: flex;
+}
+
+.community,
+.insta,
+.twitter {
+    width: 27px;
+    height: 27px;
+}
+
+.facebook {
+    width: 17px;
+    height: 27px;
+}
+
+.footer_item {
+    margin-right: 21.5px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-family: Inter;
+}
+
+.schools_link {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Inter;
+    margin-left: -72px;
+
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.schools_communitiers {
+    margin-top: 50px;
+    margin-right: 97px;
+    list-style-type: none;
+}
+
+.schools_communitiers_item {
+    margin-left: 29px;
+}
+
+.footer_logo {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        width: 768px;
+    }
+
+    .header-description {
+        margin: 45px auto auto 7%;
+    }
+
+    .leaf2 {
+        left: 7.5%;
+        top: 55px;
+    }
+
+    .nav {
+        margin: -5px auto auto 11%;
+    }
+
+    .welcome {
+        width: 768px;
+        height: 405px;
+        color: #717171;
+        font-family: Inter;
+    }
+
+    .welcome__header {
+        margin-top: 23px;
+        margin-left: -61.5%;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .welcome_header_part2 {
+        margin-top: -78px;
+        margin-left: -12%;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .part_give {
+        margin-top: 2px;
+        font-size: 35px;
+        margin-left: -61.5%;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .welcome_header_part3 {
+        margin-top: -80.5px;
+        margin-left: -47%;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .welcome__header_text {
+        width: 341px;
+        height: 101px;
+        margin-top: 32.5px;
+        margin-left: -60.5%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .welcome__button {
+        margin-top: 17px;
+        margin-left: -61.3%;
+    }
+
+    .leafs img {
+        width: 294px;
+        height: 266px;
+    }
+
+    .leafs {
+        margin-top: -32px;
+        margin-left: 86%;
+    }
+
+    .about {
+        width: 768px;
+        display: inline;
+        text-align: center;
+    }
+
+    .about_description {
+        margin-top: 38px;
+    }
+
+    .about_header {
+        display: inline;
+        margin-left: -46%;
+        font-size: 43px;
+        font-weight: 400;
+        font-size: 35px;
+    }
+
+    .about_header_part2 {
+        margin-top: -45px;
+        margin-left: 6%;
+        font-size: 35px;
+    }
+
+    .about_header_part3 {
+        margin-top: -52px;
+        margin-left: -41%;
+        font-size: 35px;
+    }
+
+    .about_header_part4 {
+        margin-top: -81px;
+        margin-left: 18%;
+        font-size: 35px;
+    }
+
+    .about_text {
+        width: 668px;
+        height: 208px;
+        margin-top: 52px;
+        margin-left: -9.5%;
+        line-height: 30px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .about img {
+        width: 250px;
+        height: 258px;
+    }
+
+    .about_img {
+        margin-top: 41px;
+        margin-left: 2.5%;
+        margin-bottom: 91px;
+    }
+
+    .service {
+        width: 768px;
+        height: 1780px;
+        padding: 0;
+    }
+
+    .service_text {
+        display: inline;
+    }
+
+    .service__header {
+        width: 306px;
+        height: 94px;
+        font-size: 35px;
+        margin-left: 6.5%;
+        margin-top: 42px;
+    }
+
+    .service_types {
+        margin-top: 40px;
+        margin-left: 4%;
+    }
+
+    .service_images {
+        margin: 39px 0.5% 0px 6.5%;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    .lawn_type {
+        padding: 0px 53px;
+    }
+
+    .service_img_1440_1,
+    .service_img_1440_2,
+    .service_img_1440_3,
+    .service_img_1440_4,
+    .service_img_1440_5,
+    .service_img_1440_6 {
+        display: none;
+    }
+
+    .service_img_768_1,
+    .service_img_768_2,
+    .service_img_768_3,
+    .service_img_768_4,
+    .service_img_768_5,
+    .service_img_768_6 {
+        display: block;
+    }
+
+
+    .service_image {
+        height: 350px;
+        width: 280px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 135px;
+        padding-bottom: 0;
+        border: 1px solid #E3E1D5;
+        border-radius: 15px;
+    }
+
+    .service_img_desription {
+        width: 203px;
+        height: 42px;
+        margin-top: -14px;
+        padding: 2px 38px;
+    }
+
+    .prices__header {
+        margin: 10px auto auto -17%;
+    }
+
+    .prices_desrription h2 {
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .prices_desrription {
+        margin-top: 40px;
+    }
+
+    .prices_headers h2 {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    .prices {
+        width: 768px;
+        height: 585px;
+    }
+
+    .prices_types {
+        margin-top: 59px;
+        margin-left: -21%;
+    }
+
+    .price_item {
+        padding-right: 65px;
+        padding-left: 40px;
+    }
+
+    .prices_headers {
+        position: relative;
+        margin-top: 140px;
+        margin-left: -15%;
+    }
+
+    .price_ad_header {
+        position: relative;
+        left: -46%;
+        top: 0;
+    }
+
+    .price_ad_header2 {
+        position: relative;
+        top: -36px;
+        left: 9%;
+    }
+
+    .price_ad_header3 {
+        position: absolute;
+        left: 10%;
+        top: 13px;
+    }
+
+    .price_ad_header4 {
+        position: relative;
+        left: -3%;
+        top: 0px;
+    }
+
+
+    .contacts {
+        overflow: hidden;
+    }
+
+    .contact_button {
+        margin-top: -115px;
+        margin-right: 25%;
+    }
+
+    .prices_leafs_img {
+        margin-left: 7%;
+        margin-top: -40px;
+    }
+
+    .price_ad {
+        margin-bottom: 32px;
+    }
+
+    .contacts {
+        width: 768px;
+        flex-direction: column-reverse;
+    }
+
+    .contact_woman_img {
+        width: 200px;
+        height: 249px;
+        margin-top: 400px;
+        margin-left: 38%;
+    }
+
+    .contacts__header {
+        width: 192px;
+        height: 51px;
+        margin-top: -200px;
+        margin-left: 38%;
+    }
+
+    .select_city {
+        margin-top: 190px;
+        margin-left: 21%;
+    }
+
+    .footer {
+        width: 768px;
+        display: block;
+        margin-top: 0px;
+        overflow: hidden;
+
+    }
+
+    .footer_description {
+        margin-left: 39%;
+        margin-top: 10px;
+    }
+
+    .schools_link {
+        margin-top: -34px;
+        margin-left: 36.3%;
+    }
+
+    .schools_communitiers {
+        margin-top: 28px;
+        margin-left: 33%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header {
+        position: relative;
+        width: 380px;
+        height: 96px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header-description {
+        margin-top: 34px;
+    }
+
+    .leaf2 {
+        margin-top: -18px;
+        margin-left: -px;
+    }
+
+    .burger_menu img {
+        width: 40px;
+        height: 26px;
+    }
+
+    .burger_menu {
+        display: block;
+        margin-top: 37px;
+        margin-right: 8.5%;
+    }
+
+    .welcome {
+        width: 380px;
+        height: 300px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .welcome__header,
+    .welcome_header_part2,
+    .welcome_header_part3,
+    .part_give {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .welcome__header {
+        margin-left: -66%;
+        margin-top: 25px;
+    }
+
+    .welcome_header_part2 {
+        margin-top: -55px;
+        margin-left: -30.5%;
+    }
+
+    .part_give {
+        margin-top: -36px;
+        margin-left: -21%;
+    }
+
+    .welcome_header_part3 {
+        margin-top: -23px;
+        margin-left: -66%;
+    }
+
+    .welcome__header_text {
+        margin-top: 20px;
+        margin-left: -66%;
+    }
+
+    .welcome__button {
+        margin-top: 8px;
+        margin-left: -66%;
+        font-size: 10px;
+        width: 100px;
+        height: 34px;
+    }
+
+    .about_wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about {
+        width: 380px;
+        height: 516px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about_header,
+    .about_header_part2,
+    .about_header_part3,
+    .about_header_part4 {
+        font-size: 25px;
+    }
+
+    .about_header {
+        display: block;
+        margin-left: -94%;
+        margin-top: -9px;
+    }
+
+    .about_header_part2 {
+        margin-left: -7%;
+        margin-top: -53px;
+    }
+
+    .about_header_part3 {
+        margin-left: -87%;
+        margin-top: -42px;
+    }
+
+    .about_header_part4 {
+        margin-left: 14%;
+        margin-top: -57px;
+    }
+
+    .about_text {
+        width: 330px;
+        height: 328px;
+        margin-top: -9px;
+        margin-left: -31%;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .about_img img {
+        width: 150px;
+        height: 147px;
+    }
+
+    .about_img {
+        margin-top: -101px;
+        margin-left: 0.5%;
+        margin-bottom: 27px;
+    }
+
+    .service {
+        width: 380px;
+        height: 3150px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .service__header {
+        margin-top: 12px;
+        font-size: 25px;
+    }
+
+    .service_text {
+        position: relative;
+    }
+
+    .service_type {
+        font-size: 15px;
+        padding: 7px 31px;
+        margin: -30px auto auto 14%;
+        flex-wrap: wrap;
+    }
+
+    .lawn_type {
+        padding: 7px 40px;
+    }
+
+    .planting_type {
+        position: relative;
+        top: 44px;
+        left: -360%;
+        padding: 7px 30px;
+    }
+
+    .service_images {
+        margin-top: 85px;
+        margin-left: 13%;
+    }
+
+    .service_image {
+        margin-top: -3px;
+    }
+
+    .prices_desrription {
+        margin-top: 26px;
+        margin-left: 50%;
+
+    }
+
+    .prices__header {
+        margin-left: -20%;
+    }
+
+    .prices {
+        width: 380px;
+        height: 512px;
+        display: inline;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .prices_desrription h2 {
+        font-size: 25px;
+    }
+
+    .prices_types {
+        margin-top: 36px;
+        margin-left: -58%;
+        width: 180px;
+        height: 235px;
+
+    }
+
+    .price_item {
+        padding: 17px 40px 14px 30px;
+        font-size: 15px;
+        border-radius: 20px;
+        margin: 28px 20px -13px -20px;
+    }
+
+    .prices_headers h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .price_item__circle {
+        margin: 0px auto auto 95px;
+    }
+
+    .vector_3 {
+        margin: 7px auto auto 100px;
+    }
+
+    .vector_4 {
+        margin: 7px auto auto 102px;
+    }
+
+    .prices_headers {
+        position: relative;
+        margin-top: -110px;
+        margin-left: -19%;
+    }
+
+    .price_ad_header {
+        position: absolute;
+        left: -42.5%;
+        top: -17px;
+    }
+
+    .price_ad_header2 {
+        position: absolute;
+        right: -6.5%;
+        top: -17px;
+    }
+
+    .price_ad_header3 {
+        position: absolute;
+        top: 18px;
+        left: 8%;
+    }
+
+    .price_ad_header4 {
+        position: absolute;
+        right: 1.5%;
+        top: 18px;
+    }
+
+    .contact_button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        margin-top: 88px;
+        margin-left: 34%;
+        margin-bottom: 8px;
+        padding: 5px;
+    }
+
+    .prices_leafs_img {
+        display: none;
+    }
+
+    .contacts {
+        width: 380px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contacts__header {
+        width: 192px;
+        height: 34px;
+        font-size: 25px;
+        margin-top: -162px;
+        margin-left: 34%;
+    }
+
+    .select_city {
+        width: 300px;
+        height: 50px;
+        margin-top: 139px;
+        margin-left: 10%;
+    }
+
+    .contact_woman_img {
+        width: 100px;
+        height: 124px;
+        margin-top: 260px;
+        margin-left: 36%;
+    }
+
+    .footer {
+        display: inline;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 380px;
+    }
+
+    .footer_description {
+        margin-top: 0px;
+        margin-left: 27.5%;
+    }
+
+    .footer_logo {
+        margin-top: -1px;
+    }
+
+    .schools_link {
+        margin-left: 22%;
+    }
+
+    .schools_communitiers {
+        margin-left: 15%;
+        margin-top: 16px;
+    }
+
+    .mobile_header_menu {
+        position: absolute;
+        display: block;
+        width: 130px;
+        right: 5%;
+        background-color: #FFFFFF;
+        list-style-type: none;
+        z-index: 1;
+        border: 2px solid #E06733;
+        border-radius: 5px;
+    }
+
+    .mobile_header_menu a {
+        display: block;
+        text-decoration: none;
+        color: #717171;
+        font-size: 17px;
+        margin: 5px 0px 5px 25px;
+    }
+
+    .mobile_items {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        margin-left: -22%;
+        list-style-type: none;
+    }
+
+    .nav_link:hover {
+        color: #E06733;
+        opacity: 0.8;
+        transition: 0.5;
+        z-index: 2;
+    }
+
+    .mobile_header_menu .cross {
+        display: block;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        right: 0;
+        border: 1px solid #717171;
+    }
+
+    .mobile_header_menu .leaf_2 {
+        width: 45px;
+        margin-left: 40px;
+    }
+
+    .city_card {
+        position: relative;
+        height: 212px;
+        width: 282px;
+        border-radius: 20px;
+        background-color: #EDF2EC;
+        border: 1px solid #000000;
+        z-index: 1;
+    }
+
+    .city_name {
+        margin-left: 55px;
+    }
+
+    .phone_number {
+        margin-left: 38px;
+    }
+
+    .city_address {
+        margin-left: -20px;
+    }
+
+    .city {
+        margin-top: -10px;
+    }
+
+    .city,
+    .phone,
+    .address {
+        margin-left: 10px;
+    }
+
+    .call_button {
+        display: block;
+        margin-left: 85px;
+        margin-top: 5px;
+    }
+
+    .price_mobile_ad {
+        margin-top: 200px;
+    }
+
+    .price_card {
+        position: relative;
+        z-index: 1;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .smooth_appearance {
+        opacity: 1;
+        animation: ani 2.5s forwards;
+    }
+
+    @keyframes ani {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .smooth_hidden {
+        animation: ani2 2.5s forwards;
+    }
+
+    @keyframes ani2 {
+        0% {
+            width: 130px;
+            opacity: 1;
+        }
+
+        100% {
+            width: 0;
+            opacity: 0;
+            display: none;
+
+        }
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
