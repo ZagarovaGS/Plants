@@ -454,6 +454,7 @@ button:hover {
 }
 
 .price_order_button {
+    display: inline;
     margin-left: 38px;
     margin-top: 7px;
     border-radius: 10px;
