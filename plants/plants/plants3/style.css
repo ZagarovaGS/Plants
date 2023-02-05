@@ -997,7 +997,10 @@ button:hover {
         top: 0px;
     }
 
-
+    .price_card {
+        margin-right: -20px;
+    }
+    
     .contacts {
         overflow: hidden;
     }
