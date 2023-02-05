@@ -404,6 +404,7 @@ button:hover {
     border-radius: 20px;
     background-color: rgba(214, 231, 210, 1);
     margin-top: -80px;
+    list-style-type: none;
 }
 
 .price_header {
